@@ -10,7 +10,7 @@ body{
 /* LINKS DO MENU NAVEGAÇÃO */
 .nav .nav-link.active{
     background-color: #fff;
-    color: #e15f41;;
+    color: #e15f41;
 }
 .nav .nav-link,
 .navbar-brand,
@@ -18,6 +18,28 @@ body{
     color: #fff
 }
 
-.navbar-brand{
-    font-family: 'Pacifico', cursive;
+.navbar-toggler{
+    background-color: #ffeae6;
 }
+
+.carousel.carousel-fade.slide {
+    max-width: 500px;
+    margin: 0 auto;  /* Centraliza o carrossel na tela */
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;  /* Faz as imagens se ajustarem ao tamanho do carrossel */
+}
+.section-title{
+    font-family: 'Pacifico', cursive;
+
+}
+.section-title span{
+    color: #e15f41;
+}
+
+#SobreR{
+    background-color: #ffeae6;
+}
+
