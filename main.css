@@ -1,5 +1,6 @@
 body{
     font-family: "Roboto", serif;
+
 }
 
 /* MENU NAVEGAÇÃO */
@@ -16,21 +17,13 @@ body{
 .navbar-brand,
 .navbar-brand:hover{
     color: #fff
+    
 }
 
 .navbar-toggler{
     background-color: #ffeae6;
 }
 
-.carousel.carousel-fade.slide {
-    max-width: 500px;
-    margin: 0 auto;  /* Centraliza o carrossel na tela */
-}
-
-.carousel-inner img {
-    width: 100%;
-    height: auto;  /* Faz as imagens se ajustarem ao tamanho do carrossel */
-}
 .section-title{
     font-family: 'Pacifico', cursive;
 
@@ -39,7 +32,7 @@ body{
     color: #e15f41;
 }
 
-#SobreR{
-    background-color: #ffeae6;
+#Sobre-o-restaurante{
+    background-color: #ffeae6; 
 }
 

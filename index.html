@@ -14,87 +14,133 @@
     <title>Projeto 3</title>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0 section-title"> Nome do Restaurante </h1>
-            <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuN">
+            <!-- Título do Restaurante -->
+            <h1 class="navbar-brand m-0 section-title">Nome do Restaurante</h1>
+            
+            <!-- Botão de Toggle para dispositivos móveis -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuN">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <nav class="navbar-collapse collapse justify-content-end" id="MenuN"> 
+            
+            <!-- Menu de navegação -->
+            <nav class="navbar-collapse collapse justify-content-end" id="MenuN">
                 <ul class="nav nav-pills fw-bold d-block d-md-flex">
                     <li class="nav-item">
-                        <a href="#sobreR" class="nav-link ">
-                            <i class="bi bi-house-door me-1"></i>
-                            Sobre o restaurante
+                        <a href="#Sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i> Sobre o Restaurante
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="bi bi-calendar-check me-1"></i>
-                            Eventos
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i> Eventos
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="bi bi-card-text me-1"></i>
-                            Nosso cardápio
+                        <a href="#Cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i> Nosso Cardápio
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="bi bi-chat-left-text me-1"></i>
-                            Fale conosco
+                        <a href="#Contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i> Fale Conosco
                         </a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <div data-bs-spy="scroll" data-bs-target="#SobreR"></div>
-    <section id="SobreR">
-        <div class="carousel slide" data-bs-ride="carousel" id="RodaRoda">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="1000">
-                    <img src="https://marketplace.canva.com/EAF_ZFGfAwE/1/0/1600w/canva-banner-para-twitch-montanha-vintage-retrô-roxo-nqw7QjAVpKo.jpg" alt="">
+    <div data-bs-spay="scroll" data-bs-target="cabecalho">
+        <section id="Sobre-o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="RodaRoda">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="https://marketplace.canva.com/EAF_ZFGfAwE/1/0/1600w/canva-banner-para-twitch-montanha-vintage-retrô-roxo-nqw7QjAVpKo.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="https://marketplace.canva.com/EAFluXFdBm4/1/0/1600w/canva-banner-para-twitch-música-fliperama-pixel-preto-rosa-neon-azul-fAVZMUdqqJc.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="https://marketplace.canva.com/EAEj2z0ZgnY/1/0/1600w/canva-rosa-amarelo-e-preto-gamer-grunge-banner-para-twitch-M-g8LpsPEV0.jpg" alt="">
+                    </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="1000">
-                    <img src="https://marketplace.canva.com/EAFluXFdBm4/1/0/1600w/canva-banner-para-twitch-música-fliperama-pixel-preto-rosa-neon-azul-fAVZMUdqqJc.jpg" alt="">
-                </div>
-                <div class="carousel-item" data-bs-interval="1000">
-                    <img src="https://marketplace.canva.com/EAEj2z0ZgnY/1/0/1600w/canva-rosa-amarelo-e-preto-gamer-grunge-banner-para-twitch-M-g8LpsPEV0.jpg" alt="">
+                <button class="carousel-control-prev" type="button" data-bs-target="#RodaRoda" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#RodaRoda" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#RodaRoda" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#RodaRoda" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#RodaRoda" data-bs-slide-to="2"></button>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#RodaRoda" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#RodaRoda" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#RodaRoda" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#RodaRoda" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#RodaRoda" data-bs-slide-to="2"></button>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://img.freepik.com/vetores-gratis/modelo-de-design-de-fundo-do-twitch-atualmente-offline-com-fundo-abstrato_1361-2579.jpg" class="d-block rounded w-100 " alt="imagem de algo">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title">Sobre <span>o Reustaurante</span></h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit a quasi perferendis accusamus omnis voluptatum doloribus expedita, ad, inventore iure impedit tempore qui animi. Eum perferendis perspiciatis suscipit voluptas incidunt?</p>
+                            <h3 class="section-title">Sobre <span>o espaço</span></h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod adipisci aperiam a? Nam ex omnis voluptates. Sunt aperiam beatae nesciunt quae eius debitis facilis hic, reiciendis illum quos quo repellendus!</p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="pt-5 pb-5">
+        </section>
+        <section id="eventos" class=" pt-5 pb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
-                        <img src="https://img.freepik.com/vetores-gratis/modelo-de-design-de-fundo-do-twitch-atualmente-offline-com-fundo-abstrato_1361-2579.jpg" class="d-block rounded w-100 " alt="imagem de algo">
+                    <h2 class="section-titile text-center"> Para todas <span> as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://www.mirago.com.br/wp-content/uploads/2021/02/live-instagram-scaled.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4"> 
+                            <span>
+                                <i class="bi bi-calendar-heart-fill"></i>
+                                Num1
+                            </span>
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium est aliquam rem sed officiis mollitia omnis quidem quae nostrum neque esse ea praesentium, dolorum nemo ab fugiat soluta magni at.
+                        </p>
                     </div>
-                    <div class="col-md-7">
-                        <h2 class="section-title">Sobre <span>o Reustaurante</span></h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit a quasi perferendis accusamus omnis voluptatum doloribus expedita, ad, inventore iure impedit tempore qui animi. Eum perferendis perspiciatis suscipit voluptas incidunt?</p>
-                        <h3 class="section-title">Sobre <span>o espaço</span></h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod adipisci aperiam a? Nam ex omnis voluptates. Sunt aperiam beatae nesciunt quae eius debitis facilis hic, reiciendis illum quos quo repellendus!</p>
-                        <ul>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
-                        </ul>
+                    <div class="col-md-4">
+                        <img src="https://www.mirago.com.br/wp-content/uploads/2021/02/live-instagram-scaled.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4">
+                            <span>
+                                <i class="bi bi-arrow-through-heart-fill"></i>
+                                Num2
+                            </span>
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium est aliquam rem sed officiis mollitia omnis quidem quae nostrum neque esse ea praesentium, dolorum nemo ab fugiat soluta magni at.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://www.mirago.com.br/wp-content/uploads/2021/02/live-instagram-scaled.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title fs-4">
+                            <span>
+                                <i class="bi bi-people-fill"></i>
+                                Num3
+                            </span>
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium est aliquam rem sed officiis mollitia omnis quidem quae nostrum neque esse ea praesentium, dolorum nemo ab fugiat soluta magni at.
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
