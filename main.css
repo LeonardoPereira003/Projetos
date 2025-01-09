@@ -54,6 +54,26 @@ body{
     color: #e15f48;
 }
 
+#fale-conosco h2 {
+    margin-top: 300px;
+}
+#fale-conosco .form-control {
+    margin-bottom: 15px;
+}
+
+#fale-conosco button[type="submit"] {
+    background-color: #007bff; /* Azul padrão */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#fale-conosco button[type="submit"]:hover {
+    background-color: #0056b3;
+}
 
 .social-links li{
     list-style: none;
