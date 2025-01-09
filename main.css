@@ -1,20 +1,22 @@
 body{
     font-family: "Roboto", serif;
+    background-color:  #030202;
+    color: #fff;
 }
 
 .text-colored{
-    color: #e15f41;
+    color: #e15f48;
 }
 
 /* MENU NAVEGAÇÃO */
 .navbar{
-    background-color: #e15f41;
+    background-color: #e15f48;
 }
 
 /* LINKS DO MENU NAVEGAÇÃO */
 #cabecalho .nav .nav-link.active{
     background-color: #fff;
-    color: #e15f41;
+    color: #e15f48;
 }
 #cabecalho .nav .nav-link,
 .navbar-brand,
@@ -33,18 +35,32 @@ body{
 
 }
 .section-title span{
-    color: #e15f41;
+    color: #e15f48;
 }
 
 #Sobre-o-restaurante{
-    background-color: #ffeae6; 
+    background-color: #030202; 
+}
+#Sobre-o-restaurante .container img{
+    border: 1px solid #ffeae6; /* A cor da borda foi corrigida */
+    border-radius: 24px; /* Borda arredondada */
 }
 
 .nav-cardapio .nav-link.active{
-    background-color: #e15f41;
+    background-color: #e15f48;
     color: #fff;
 }
 .nav-cardapio .nav-link:hover{
-    color: #e15f41;
+    color: #e15f48;
 }
 
+#RodaRoda {
+    width: 80%; /* Define a largura do carrossel, pode ajustar o valor conforme necessário */
+    max-width: 1000px; /* Define um tamanho máximo */
+    margin: 0 auto; /* Centraliza o carrossel na tela */
+    overflow: hidden; /* Impede que o conteúdo saia da área visível */
+}
+.carousel-item img {
+    width: 100%; /* Faz as imagens preencherem toda a largura do item */
+    height: auto; /* Mantém a proporção da imagem */
+}
