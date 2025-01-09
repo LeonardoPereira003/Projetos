@@ -54,6 +54,16 @@ body{
     color: #e15f48;
 }
 
+
+.social-links li{
+    list-style: none;
+    display: inline;
+    
+}
+.social-links li a{
+    text-decoration: none;
+}
+
 #RodaRoda {
     width: 80%; /* Define a largura do carrossel, pode ajustar o valor conforme necessário */
     max-width: 1000px; /* Define um tamanho máximo */
@@ -64,3 +74,4 @@ body{
     width: 100%; /* Faz as imagens preencherem toda a largura do item */
     height: auto; /* Mantém a proporção da imagem */
 }
+
